@@ -6,11 +6,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Poppins','sans-serif'],
+        sans: ['Open Sans Variable','sans-serif'],
       },
 
     },
   },
-  plugins: [],
+  plugins: [
+   
+  ],
 }
 

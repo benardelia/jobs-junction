@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider } from "react-router-dom";
-import "@fontsource/poppins"
-import "@fontsource-variable/open-sans"
+import "@fontsource/poppins";
+import "@fontsource-variable/open-sans";
 import { ChakraProvider } from '@chakra-ui/react';
+import theme from './theme';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

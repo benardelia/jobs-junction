@@ -24,4 +24,4 @@ const App = createBrowserRouter([
   
 ]);
 
-export default App
+export default App;
