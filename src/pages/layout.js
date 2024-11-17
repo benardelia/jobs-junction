@@ -14,9 +14,9 @@ const links = ["Jobs", "Salaries", "Companies", "Forums", "Find resumes"];
 
 const NavBar = () => {
     return (
-        <div className="bg-purple-900 w-full flex px-2 py-1 flex justify-self-center ">
-            {links.map(link => (<NavLink to={link}><div className="py-2 flex font-sans text-gray-100">
-                <p className="px-4 font-light">{link}</p><div>|</div>
+        <div className="bg-slate-800 w-full flex px-2 py-1 flex justify-self-center ">
+            {links.map(link => (<NavLink to={link}><div className="py-2 flex  font-sans text-gray-100">
+                <p className="px-4 hover:text-gray-100  hover:font-normal  font-light">{link}</p><div>|</div>
             </div></NavLink>))
             }</div>
     );
@@ -64,8 +64,8 @@ const Layout = () => {
     return (
         <div className='overflow-Y-auto h-dvh'>
             <div className="flex justify-between items-center mx-8">
-                <h1 className="font-sans  py-4 text-purple-800 font-semibold text-xl text-center">Jobs junction</h1>
-                <Link to="/login"><div className='font-sans rounded-lg py-1 px-2 border-2 bg-blue-100 border-blue-800'>Log In</div></Link>
+                <h1 className="font-sans  py-4 text-slate-800 font-semibold text-xl text-center">Jobs junction</h1>
+                <Link to="/login"><div className='font-sans rounded-lg py-1 px-2 border bg-slate-100 border-slate-800 hover:bg-slate-800 hover:border-none hover:text-gray-100 hover:font-light'>Log In</div></Link>
             </div>
             <center><NavBar /></center>
             <Carousel style={{height: '300px'}} className="w-full relative bg-custom bg-cover  mb-40"/>
@@ -208,12 +208,7 @@ employees needs so that Organisations to get qualified employee(s) in accordance
                     </div>
                 </div>         
 
-
-
-         
-                
-                
-                <div className="w-full bg-blue-800 h-60 pt-12  bottom-0 text-gray-100">
+                <div className="w-full bg-slate-900 h-60 pt-12  bottom-0 text-gray-100">
                 <div className='flex justify-around'>
                   <div className='flex flex-row space-x-12 ml-8'>
                   <div className='flex flex-col'>
