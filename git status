@@ -1,0 +1,23 @@
+[33mcommit ed8ad4f8457e62636c6906e3ea600f6b38d9df01[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: benardelia <agustinbenard2000@gmail.com>
+Date:   Sun Nov 17 15:01:45 2024 +0300
+
+    sunday update
+
+[33mcommit 06c32df3170b7fa5b66384628d5f6552d36e8b5a[m
+Author: benardelia <agustinbenard2000@gmail.com>
+Date:   Sat Nov 16 16:55:20 2024 +0300
+
+    add project UI
+
+[33mcommit cfa2f50e63fe73bd3a1ac80b5404f99028379ea4[m
+Author: benardelia <agustinbenard2000@gmail.com>
+Date:   Wed Nov 13 18:22:06 2024 +0300
+
+    initial commit
+
+[33mcommit f040c418798e509ba40d9670735744cc4ba3076e[m
+Author: benardelia <agustinbenard2000@gmail.com>
+Date:   Fri Mar 29 19:08:46 2024 +0300
+
+    Initialize project using Create React App

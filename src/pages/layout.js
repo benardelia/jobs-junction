@@ -15,8 +15,8 @@ const links = ["Jobs", "Salaries", "Companies", "Forums", "Find resumes"];
 const NavBar = () => {
     return (
         <div className="bg-slate-800 w-full flex px-2 py-1 flex justify-self-center ">
-            {links.map(link => (<NavLink to={link}><div className="py-2 flex  font-sans text-gray-100">
-                <p className="px-4 hover:text-gray-100  hover:font-normal  font-light">{link}</p><div>|</div>
+            {links.map(link => (<NavLink to={link}><div className="py-2 block flex  font-sans text-gray-100">
+                <p className="px-4 block hover:text-gray-100  hover:font-normal  font-light">{link}</p><div>|</div>
             </div></NavLink>))
             }</div>
     );
@@ -62,10 +62,10 @@ const info1 = [
 ]
 const Layout = () => {
     return (
-        <div className='overflow-Y-auto h-dvh'>
+        <div className='overflow-y-auto h-dvh'>
             <div className="flex justify-between items-center mx-8">
                 <h1 className="font-sans  py-4 text-slate-800 font-semibold text-xl text-center">Jobs junction</h1>
-                <Link to="/login"><div className='font-sans rounded-lg py-1 px-2 border bg-slate-100 border-slate-800 hover:bg-slate-800 hover:border-none hover:text-gray-100 hover:font-light'>Log In</div></Link>
+                <Link to="/login"><div className='font-sans rounded-lg py-1 px-2 border bg-slate-100 border-slate-800 hover:bg-slate-800 hover:border-none hover:text-gray-100 hover:font-normal'>Log In</div></Link>
             </div>
             <center><NavBar /></center>
             <Carousel style={{height: '300px'}} className="w-full relative bg-custom bg-cover  mb-40"/>
@@ -140,13 +140,13 @@ employees needs so that Organisations to get qualified employee(s) in accordance
                 </div>
             </div>
             <div className="flex flex-row space-x-4 justify-center  py-10  ">
-                    <div className=" border-r-2 border-rose-800 h-48 space-y-4 w-72 flex flex-col justify-center place-items-center">
+                    <div className=" border-r border-rose-800 h-48 space-y-4 w-72 flex flex-col justify-center place-items-center">
                        <div className="h-12 w-12 rounded-lg bg-red-700"></div>
                        <h className="font-sans">JOB ASSISTANCE PORTAL</h>
                        <p  className='text-xs'>We help Organisatins demands and employees needs so that organisations to get qualified employee(s) in accordance</p>
 
                     </div>
-                    <div className="border-r-2 border-blue-800 flex space-y-4 flex-col justify-center place-items-center h-48 w-72">
+                    <div className="border-r border-blue-800 flex space-y-4 flex-col justify-center place-items-center h-48 w-72">
                     <div className="h-12 w-12 rounded-lg bg-red-700"></div>
                        <h className="font-sans">WE HELP EMPLOYMENT SEEKERS</h>
                        <p  className='text-xs'> We help employees to find a job Vacancies of his/her desire on time in preferred location under open agreement between.</p>
