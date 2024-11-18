@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/jobs-junction/static/css/main.bcdab555.css",
+    "main.js": "/jobs-junction/static/js/main.1044cb60.js",
+    "static/js/453.344383db.chunk.js": "/jobs-junction/static/js/453.344383db.chunk.js",
+    "static/media/bright-marbles-5k-3840x2160-18216.png": "/jobs-junction/static/media/bright-marbles-5k-3840x2160-18216.2c050af72ab46e65f21f.png",
+    "static/media/gwen-stacy-logo-3840x2160-18202.jpg": "/jobs-junction/static/media/gwen-stacy-logo-3840x2160-18202.73fdf5ea0ce92de7b38e.jpg",
+    "static/media/astronaut-bitcoin-ethereum-cryptocurrency-planet-earth-3840x2160-8247.jpg": "/jobs-junction/static/media/astronaut-bitcoin-ethereum-cryptocurrency-planet-earth-3840x2160-8247.903a9fbfaeb68e921a23.jpg",
+    "static/media/bitcoin-cryptocurrency-black-background-3840x2160-952.jpg": "/jobs-junction/static/media/bitcoin-cryptocurrency-black-background-3840x2160-952.60d89b9f9f1056e4136a.jpg",
+    "static/media/coding-black-3840x2160-13653.png": "/jobs-junction/static/media/coding-black-3840x2160-13653.a680b81279c982658619.png",
+    "static/media/coffee-cup-refill-3840x2160-13666.png": "/jobs-junction/static/media/coffee-cup-refill-3840x2160-13666.ad79e630f81717e3a93a.png",
+    "static/media/open-sans-cyrillic-ext-wght-normal.woff2": "/jobs-junction/static/media/open-sans-cyrillic-ext-wght-normal.3bf357a61410b8fdd15a.woff2",
+    "static/media/open-sans-latin-wght-normal.woff2": "/jobs-junction/static/media/open-sans-latin-wght-normal.2bf64b071a7e955bf5e5.woff2",
+    "static/media/open-sans-math-wght-normal.woff2": "/jobs-junction/static/media/open-sans-math-wght-normal.384b80779baf485a5f7c.woff2",
+    "static/media/open-sans-latin-ext-wght-normal.woff2": "/jobs-junction/static/media/open-sans-latin-ext-wght-normal.03dc086e12255c299082.woff2",
+    "static/media/open-sans-cyrillic-wght-normal.woff2": "/jobs-junction/static/media/open-sans-cyrillic-wght-normal.0dfbbfc9db95076cf066.woff2",
+    "static/media/open-sans-symbols-wght-normal.woff2": "/jobs-junction/static/media/open-sans-symbols-wght-normal.5a982a46c371a8eb3ce2.woff2",
+    "static/media/open-sans-greek-wght-normal.woff2": "/jobs-junction/static/media/open-sans-greek-wght-normal.c33b168a20eff840d737.woff2",
+    "static/media/open-sans-vietnamese-wght-normal.woff2": "/jobs-junction/static/media/open-sans-vietnamese-wght-normal.82f4f4e3706edc5466f4.woff2",
+    "static/media/open-sans-hebrew-wght-normal.woff2": "/jobs-junction/static/media/open-sans-hebrew-wght-normal.037fdd4c5155cf6c2e4d.woff2",
+    "static/media/poppins-latin-400-normal.woff": "/jobs-junction/static/media/poppins-latin-400-normal.1458587c0aa7cd06b82b.woff",
+    "static/media/poppins-latin-400-normal.woff2": "/jobs-junction/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff": "/jobs-junction/static/media/poppins-latin-ext-400-normal.cf7e1ed83eb19f7b1ea6.woff",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/jobs-junction/static/media/poppins-latin-ext-400-normal.6f94f40f848d79872444.woff2",
+    "static/media/open-sans-greek-ext-wght-normal.woff2": "/jobs-junction/static/media/open-sans-greek-ext-wght-normal.fe6c5c39e4bea34e4318.woff2",
+    "index.html": "/jobs-junction/index.html",
+    "main.bcdab555.css.map": "/jobs-junction/static/css/main.bcdab555.css.map",
+    "main.1044cb60.js.map": "/jobs-junction/static/js/main.1044cb60.js.map",
+    "453.344383db.chunk.js.map": "/jobs-junction/static/js/453.344383db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcdab555.css",
+    "static/js/main.1044cb60.js"
+  ]
+}
