@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import pic1 from './pics/astronaut-bitcoin-ethereum-cryptocurrency-planet-earth-3840x2160-8247.jpg'
+import React, { useState } from 'react'
 import {
   NavLink, Link
 } from "react-router-dom";
@@ -18,9 +17,9 @@ const Login = () => {
     <div className='flex w-full font-sans'>
       <div className='w-1/3 bg-slate-600 h-auto'>
       </div>
-      <div className="flex w-2/3 items-center justify-center min-h-screen bg-blue-50">
-        <Link to="/"><div className='flex absolute top-8 text-gray-100 left-4 items-center'><IoArrowBack />Home</div></Link>
-        <div className="w-80 , max-w-lg p-10 space-y-8 bg-white rounded-lg shadow-xl">
+      <div className="flex w-2/3 items-center justify-center min-h-screen place-items-center bg-blue-50">
+        <Link to="/jobs-junction"><div className='flex absolute top-8 text-gray-100 left-4 items-center'><IoArrowBack />Home</div></Link>
+        <div className=" p-10 space-y-8 bg-white rounded-lg shadow-xl w-1/2 m-auto h-2/3 ">
           <h2 className="text-xl font-bold text-center text-slate-800">Login</h2>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>

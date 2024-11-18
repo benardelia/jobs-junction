@@ -35,7 +35,7 @@ const Register = () => {
   return (
     <div className="flex w-full bg-slate-100">
       <div className='w-3/4 flex h-auto mx-12 justify-center  bg-blue-50'>
-        <div className="w-96 my-12 p-10 space-y-8 bg-white rounded-xl shadow-xl">
+        <div className="w-2/3 my-12 p-10 space-y-8 bg-white rounded-xl shadow-xl">
           <h2 className="text-2xl font-sans font-semibold text-center text-slate-800">
             Please Register
           </h2>

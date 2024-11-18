@@ -1,10 +1,10 @@
 import { Button } from '@chakra-ui/react';
 import { NavLink, Link, Outlet } from "react-router-dom"
-import pic1 from './pics/astronaut-bitcoin-ethereum-cryptocurrency-planet-earth-3840x2160-8247.jpg'
-import pic2 from './pics/bright-marbles-5k-3840x2160-18216.png'
-import pic3 from './pics/coffee-cup-refill-3840x2160-13666.png'
-import pic4 from './pics/gwen-stacy-logo-3840x2160-18202.jpg'
-import pic5 from './pics/coding-black-3840x2160-13653.png'
+import pic1 from './pics/IMG-20241118-WA0012.jpg'
+import pic2 from './pics/IMG-20241118-WA0013.jpg'
+import pic3 from './pics/IMG-20241118-WA0014.jpg'
+import pic4 from './pics/IMG-20241118-WA0015.jpg'
+import pic5 from './pics/IMG-20241118-WA0016.jpg'
 import Carousel from './Carousel';
 import { AiFillYoutube } from "react-icons/ai";
 
@@ -25,22 +25,22 @@ const vids = [
     {
         id: 0,
         src: pic1,
-        lik: "teachers  junction kushirikiana na serikali kuwasaidia walimu"
+        lik: "jobs junction kushirikiana na serikali kuwasaidia wafanyakazi"
     },
     {
         id: 1,
         src: pic2,
-        lik: "teachers  junction kushirikiana na serikali kuwasaidia walimu"
+        lik: "Jobs junction kinara huduma kwa wateja na wwatumiaji"
     },
     {
         id: 2,
         src: pic3,
-        lik: "teachers  junction kushirikiana na serikali kuwasaidia walimu"
+        lik: "jobs junction kuongea wafanyakazi kutanua wigo wa huduma zao"
     },
     {
         id: 3,
-        src: pic4,
-        lik: "teachers  junction kushirikiana na serikali kuwasaidia walimu"
+        src: pic5,
+        lik: "jobs junction kushiriki katika kusaidia wanafunzi wanaosoma katika mazingira magumu"
     }
 ];
 const info1 = [
@@ -77,7 +77,7 @@ const Layout = () => {
      No duplicates. No spam. ...</div>
      </div>
                     </div>
-                    <div className="bg-yellow-500 p-4 h-48 flex w-60 place-items-center justify-center text-gray-100 flex">
+                    <div className="bg-yellow-500 p-4 h-48 flex w-60 place-items-center justify-center text-gray-100 ">
                     <div className='flex flex-col  space-y-6 '>
                      <h>UP TO DATE JOBS</h>   
 <p className='text-xs'>Our jobs are updated every single day so you can browse the most current listings available schools or qualified teache
@@ -93,7 +93,7 @@ const Layout = () => {
                 </div>
 
             <div className="flex flex-row w-100 mx-8 justify-center space-x-2 items-center">
-                <div className='bg-red-400 w-1/3'><img src={pic1} className='w-full h-72'/></div>
+                <div className='bg-red-400 w-1/3 rounded-lg'><img src={pic2} className='w-full rounded-lg h-72'/></div>
                 <div className=' w-1/2 p-8'>
                <p>EMPLOYEES NETWORKING CENTER</p> 
 <h2 className='font-bold text-3xl'>JOBS’ JUNCTION</h2>
@@ -141,18 +141,18 @@ employees needs so that Organisations to get qualified employee(s) in accordance
             </div>
             <div className="flex flex-row space-x-4 justify-center  py-10  ">
                     <div className=" border-r border-rose-800 h-48 space-y-4 w-72 flex flex-col justify-center place-items-center">
-                       <div className="h-12 w-12 rounded-lg bg-red-700"></div>
+                       <div className="h-12 w-12 rounded-lg bg-red-700"> <img src={pic1} className='w-fit h-full rounded-lg'/></div>
                        <h className="font-sans">JOB ASSISTANCE PORTAL</h>
                        <p  className='text-xs'>We help Organisatins demands and employees needs so that organisations to get qualified employee(s) in accordance</p>
 
                     </div>
                     <div className="border-r border-blue-800 flex space-y-4 flex-col justify-center place-items-center h-48 w-72">
-                    <div className="h-12 w-12 rounded-lg bg-red-700"></div>
+                    <div className="h-12 w-12 rounded-lg bg-red-700"> <img src={pic1} className='w-fit h-full rounded-lg'/></div>
                        <h className="font-sans">WE HELP EMPLOYMENT SEEKERS</h>
                        <p  className='text-xs'> We help employees to find a job Vacancies of his/her desire on time in preferred location under open agreement between.</p>
                     </div>
                     <div className=" flex flex-col justify-center space-y-4 place-items-center h-48 w-72">
-                    <div className="h-12 w-12 rounded-lg bg-red-700"></div>
+                    <div className="h-12 w-12 rounded-lg bg-red-700"> <img src={pic1} className='w-fit h-full rounded-lg'/></div>
                        <h className="font-sans">WE HELP ORGANISATIONS</h>
                       <p className='text-xs'>In Second site we help Organisatins to get employee(s) of their rank/type/choices who can help organisations to 
                         meet their vision and mission in competitive ways and strategie</p>
@@ -168,8 +168,8 @@ employees needs so that Organisations to get qualified employee(s) in accordance
             </div>
             <div className="flex flex-row space-x-4 justify-center py-6  ">
                     <div className="bg-red-500 h-60 w-72"><img src={pic2} className='w-full h-60'/></div>
-                    <div className="bg-yellow-500 h-60 w-72"><img src={pic3} className='w-full h-60'/></div>
-                    <div className="bg-blue-400 h-60 w-72"><img src={pic4} className='w-full h-60'/></div>
+                    <div className="bg-yellow-500 h-60 w-72"><img src={pic4} className='w-full h-60'/></div>
+                    <div className="bg-blue-400 h-60 w-72"><img src={pic5} className='w-full h-60'/></div>
                 </div>
                
                  <div className="flex flex-col my-16 w-full">
@@ -180,7 +180,7 @@ employees needs so that Organisations to get qualified employee(s) in accordance
                     <div className='flex flex-row justify-center'>
                         {vids.map(vid=>
                     <div key={vid.id} className="flex flex-col space-y-6 relative w-48 h-auto py-4 border-2 mx-2 place-items-center">
-                        <div className="w-36 h-36 bg-blue-700 rounded-xl"><img src={vid.src}className='h-36 w-full rounded-lg'/><AiFillYoutube className='text-red-600 absolute text-sm bottom-16 left-6'/></div>
+                        <div className="w-36 h-36 bg-blue-700 rounded-xl"><img src={vid.src}className='h-36 w-full rounded-lg'/><AiFillYoutube className='text-red-600 absolute text-sm bottom-17 left-6'/></div>
                         <h className="font-sans underline break-normal text-xs w-36">{vid.lik}</h>
                     </div>
                      )}
@@ -190,18 +190,18 @@ employees needs so that Organisations to get qualified employee(s) in accordance
 
                  <div className="flex flex-row space-x-4 justify-center  py-10  ">
                     <div className=" border-r border-rose-800 h-48 space-y-4 w-72 flex flex-col justify-center place-items-center">
-                       <div className="h-12 w-12 rounded-lg bg-red-700"></div>
+                       <div className="h-12 w-12 rounded-lg bg-red-700"> <img src={pic1} className='w-fit h-full rounded-lg'/></div>
                        <h className="font-sans">JOB ASSISTANCE PORTAL</h>
                        <p  className='text-xs'>We help OrganisatiOns demands and Employees IN need so that Organisations to get qualified employee(s) in accordance</p>
 
                     </div>
                     <div className="border-r border-blue-800 flex space-y-4 flex-col justify-center place-items-center h-48 w-72">
-                    <div className="h-12 w-12 rounded-lg bg-red-700"></div>
+                    <div className="h-12 w-12 rounded-lg bg-red-700"> <img src={pic1} className='w-fit h-full rounded-lg'/></div>
                        <h className="font-sans">WE HELP EMPLOYEES</h>
                        <p  className='text-xs'> We help Employees to find a JOBS of his/her desire on time in preferred location under open agreement between.</p>
                     </div>
                     <div className=" flex flex-col justify-center space-y-4 place-items-center h-48 w-72">
-                    <div className="h-12 w-12 rounded-lg bg-red-700"></div>
+                    <div className="h-12 w-12 rounded-lg bg-red-700"> <img src={pic1} className='w-fit h-full rounded-lg'/></div>
                        <h className="font-sans">WE HELP PRIVATE ORGANISATIONS</h>
                       <p className='text-xs'>In Second site we help organisations to employee(s) of their rank/type/choices who can help school to 
                         meet their vision and mission in competitive ways and strategie</p>
@@ -244,7 +244,9 @@ employees needs so that Organisations to get qualified employee(s) in accordance
                     </div>
                     <div className='flex flex-col space-y-8'>
                           <div className='flex space-x-6'>
-                            <div className='bg-green-500 h-12 w-12 rounded-lg'></div>
+                            <div className='bg-green-500 h-12 w-12 rounded-lg'>
+                                <img src={pic1} className='w-fit h-full rounded-lg'/>
+                            </div>
                             <div>
                              <h>jobs junction</h>
                              <p> welcome again</p>

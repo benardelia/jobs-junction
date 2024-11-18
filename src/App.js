@@ -10,7 +10,7 @@ import Register from "./pages/register"
 
 const App = createBrowserRouter([
   {
-    path: "/",
+    path: "/jobs-junction",
     element: <Layout/>
   },
       {

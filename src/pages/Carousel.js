@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import pic2 from './pics/bright-marbles-5k-3840x2160-18216.png'
-import pic3 from './pics/coffee-cup-refill-3840x2160-13666.png'
-import pic4 from './pics/gwen-stacy-logo-3840x2160-18202.jpg'
-import pic5 from './pics/coding-black-3840x2160-13653.png'
+import pic2 from './pics/IMG-20241118-WA0011.jpg'
+import pic3 from './pics/IMG-20241118-WA0012.jpg'
+import pic4 from './pics/IMG-20241118-WA0013.jpg'
+import pic5 from './pics/IMG-20241118-WA0014.jpg'
+import pic6 from './pics/IMG-20241118-WA0015.jpg'
+import pic7 from './pics/IMG-20241118-WA0016.jpg'
+import pic8 from './pics/IMG-20241118-WA0006.jpg'
+import pic9 from './pics/IMG-20241118-WA0007.jpg'
+import pic10 from './pics/IMG-20241118-WA0008.jpg'
 
 
 
@@ -20,8 +25,23 @@ const slides = [
  {
  id: 3,
  text: 'Trustful and reliable',
- bgColor: pic3,
+ bgColor: pic8,
  },
+ {
+  id: 4,
+  text: 'Daily updates about jobs',
+  bgColor: pic9,
+ },
+  {
+   id: 5,
+   text: 'Trustful and reliable',
+   bgColor: pic5,
+ },
+ {
+    id: 6,
+    text: 'The plce you can begin looking for jobs',
+    bgColor: pic10,
+  }
 ];
 function Carousel() {
  const [currentSlide, setCurrentSlide] = useState(0);
@@ -35,12 +55,13 @@ function Carousel() {
  return () => clearInterval(interval);
  }, []);
  return (
- <div className="relative w-full h-72 overflow-hidden">
+ <div className="relative w-full h-96 overflow-hidden">
  {slides.map((slide, index) => (
  <div
  key={slide.id}
- className={`${slide.bgColor} absolute inset-0 transition-transform duration-700 ease-in-out
-transform ${index === currentSlide ? 'translate-x-0' : 'translate-x-full'}`}
+ className={`${slide.bgColor} absolute inset-0 transition-opacity duration-700 ease-in-out
+${index === currentSlide ? 'opacity-100 block' : 'opacity-0 hidden'}`}
+
  > <img src={slide.bgColor} className='w-full absolute h-full'/>
  <div className="flex items-center justify-center pl-72 absolute h-full text-white text-2xl font-bold">
  {slide.text}
