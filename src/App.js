@@ -7,15 +7,23 @@ import Home from "./pages/home";
 import Login from "./pages/login";
 import Layout from "./pages/layout";
 import Register from "./pages/register"
+import { path } from "framer-motion/client";
 
 const App = createBrowserRouter([
   {
-    path: "/jobs-junction",
-    element: <Layout/>
-  },
+    path: "/",
+    element: <Layout/>,
+    children: [
       {
-        path: "/login",
-        element: <Login/>
+        index: true,
+        path: "/home",
+        element: <Home/>
+      }
+    ]
+  },
+  {
+     path: "/login",
+     element: <Login/>
       },
       {
         path: "/register",

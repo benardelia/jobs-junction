@@ -18,7 +18,9 @@ const Register = () => {
     region: "",
     religion: "",
     course: "",
-    terms: ""
+    terms: "",
+    info: "",
+    payment: ""
   });
   const handleChange = (e) => {
     const { name, value, files } = e.target;
@@ -34,8 +36,8 @@ const Register = () => {
   };
   return (
     <div className="flex w-full bg-slate-100">
-      <div className='w-3/4 flex h-auto mx-12 justify-center  bg-blue-50'>
-        <div className="w-2/3 my-12 p-10 space-y-8 bg-white rounded-xl shadow-xl">
+      <div className='sm:w-3/4 w-full flex h-auto mx-12 justify-center  bg-blue-50'>
+        <div className="w-full sm:w-2/3 my-12 p-10 space-y-8 bg-white rounded-xl font-sans shadow-xl">
           <h2 className="text-2xl font-sans font-semibold text-center text-slate-800">
             Please Register
           </h2>
@@ -294,15 +296,77 @@ const Register = () => {
               />
             </div>
             <div>
+              <label
+                htmlFor="info"
+                className="block text-xs font-medium text-gray-700"
+              >
+                Where did you get information aout us:
+              </label>
+              <select
+                id="info"
+                name="info"
+                value={formData.info}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 mt-1 text-xs border border-gray-300 rounded-md
+ focus:outline-none focus:ring-2 focus:ring-blue-400"
+              >
+                <option value="" disabled>Select where you heard us</option>
+                <option value="certificate">Social media</option>
+                <option value="diploma">Friends</option>
+                <option value="degree">Billboards</option>
+              </select>
+            </div>
+            <div>
+              <label
+                htmlFor="course"
+                className="block text-xs font-medium text-gray-700"
+              >
+                
+              </label>
+              <input
+                type="number"
+                id="payment"
+                name="payment"
+                placeholder='enter payment number here'
+                value={formData.payment}
+                onChange={handleChange}
+                required
+                className="w-full px-4 py-2 mt-1 text-xs border border-gray-300 rounded-md
+ focus:outline-none focus:ring-2 focus:ring-slate-400"
+              />
+            </div>
+            <div>
               <div className="flex mb-2 items-center mx-1">
                 <input type='checkbox' value={formData.terms} onChange={handleChange} className="focus: border border-slate-900 " /><p className='text-xs font-thin'>I agree with <Link className='underline'> terms and regulations</Link></p>
               </div>
               <button
                 type="submit"
-                className="w-full px-4 hover:font-semibold py-3 text-white text-xs bg-slate-800 rounded-lg hover:bg-slate-900
+                className="w-full px-4 mb-4 hover:font-semibold py-3 text-white text-xs bg-red-600 rounded-lg hover:bg-slate-900
+ focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-opacity-50"
+              >
+                make payment
+              </button>
+              <button
+                type="submit"
+                className="w-full px-4 hover:font-semibold mb-4 py-3 text-white text-xs bg-slate-800 rounded-lg hover:bg-slate-900
  focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-opacity-50"
               >
                 Register
+              </button>
+              <button
+                type="submit"
+                className="w-full px-4 hover:font-semibold py-3 mb-4 text-white text-xs bg-yellow-500 rounded-lg hover:bg-slate-900
+ focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-opacity-50"
+              >
+                Read more
+              </button>
+              <button
+                type="submit"
+                className="w-full px-4 hover:font-semibold py-3 text-white text-xs bg-slate-800 rounded-lg hover:bg-slate-900
+ focus:outline-none focus:ring-2 focus:ring-slate-400 mb-4 focus:ring-opacity-50"
+              >
+                Contact Us
               </button>
             </div>
           </form>
@@ -314,7 +378,7 @@ const Register = () => {
           </p>
         </div>
       </div>
-      <div className='w-1/4 h- bg-slate-900'></div>
+      <div className='sm:w-1/4 h- bg-slate-900'></div>
     </div>
 
   );
