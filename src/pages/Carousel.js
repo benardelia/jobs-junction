@@ -14,32 +14,32 @@ import pic10 from './pics/IMG-20241118-WA0008.jpg'
 const slides = [
  {
  id: 1,
- text: 'Trusted platform for jobs',
- bgColor: pic4, // Tailwind background color
+ text: '',
+ bgColor: pic4, 
  },
  {
  id: 2,
- text: 'daily jobs update',
+ text: '',
  bgColor: pic2,
  },
  {
  id: 3,
- text: 'Trustful and reliable',
+ text: '',
  bgColor: pic8,
  },
  {
   id: 4,
-  text: 'Daily updates about jobs',
+  text: '',
   bgColor: pic9,
  },
   {
    id: 5,
-   text: 'Trustful and reliable',
+   text: '',
    bgColor: pic5,
  },
  {
     id: 6,
-    text: 'The plce you can begin looking for jobs',
+    text: '',
     bgColor: pic10,
   }
 ];

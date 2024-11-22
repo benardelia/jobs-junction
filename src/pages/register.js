@@ -131,6 +131,7 @@ const Register = () => {
                 className="w-full px-4 py-2 mt-1 text-xs border border-gray-300 rounded-md
  focus:outline-none focus:ring-2 focus:ring-blue-400"
               />
+              {formData.password !== formData.confirmPassword ? <p className='text-xs font-semibold  text-red-500 '>passwords do not match</p> : (formData.password || formData.confirmPassword === "" ) ? <p></p> : <p className='text-green-700 text-xs font-bold font-sans'>acceptable password</p> }
             </div>
             <div>
               <label
