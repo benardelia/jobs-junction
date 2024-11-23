@@ -65,7 +65,7 @@ const Layout = () => {
                 <p className="text-xs text-gray-400">place for better jobs</p>
                 </div>
                 </div>
-                <Link to="/login"><div className='font-sans rounded-lg py-1 px-2 border bg-slate-100 border-slate-800 hover:bg-slate-800 hover:border-none flex items-center hover:text-gray-100 hover:font-normal'>Log In<FaLock/></div></Link>
+                <Link to="/login"><div className='font-sans rounded-lg py-1 px-2 border bg-slate-100 border-slate-800 hover:bg-slate-800 hover:border-none flex items-center hover:text-gray-100 hover:font-normal'>Log In<FaLock className='ml-2'/></div></Link>
             </div>
             <center><NavBar /></center>
                   <Outlet/>

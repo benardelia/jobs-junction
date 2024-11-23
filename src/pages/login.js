@@ -18,7 +18,7 @@ const Login = () => {
       <div className='sm:w-1/3 sm:bg-slate-600 sm:h-auto'>
       </div>
       <div className="flex w-full sm:w-2/3 items-center justify-center min-h-screen place-items-center bg-blue-50">
-        <Link to="/home"><div className='flex absolute top-8 text-gray-900 sm:text-gray-100 left-4 items-center'><IoArrowBack />Home</div></Link>
+        <Link to="/jobs-junction/home"><div className='flex absolute top-8 text-gray-900 sm:text-gray-100 left-4 items-center'><IoArrowBack />Home</div></Link>
         <div className=" p-10 py-auto space-y-8 bg-white rounded-lg justify-center shadow-xl w-3/4 h-auto my-auto sm:w-1/2 m-auto sm:h-4/5 ">
           <h2 className="text-xl font-bold font-sans text-center text-slate-800">Login</h2>
           <form onSubmit={handleSubmit} className="space-y-6 my-auto ">
