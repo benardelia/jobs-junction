@@ -11,35 +11,40 @@ import { path } from "framer-motion/client";
 import About from "./pages/about";
 import Resume from "./pages/resumes";
 import Forum from "./pages/forums";
-import News from "./pages/News,js";
+import News from "./pages/News";
+import Companies from "./pages/Companies";
 
 
 
 const App = createBrowserRouter([
   {
-    path: "/",
+    path: "/jobs-junction",
     element: <Layout />,
     children: [
       {
         index: true,
-        path: "/home",
+        path: "/jobs-junction/home",
         element: <Home />
       },
       {
-        path: "/about",
+        path: "/jobs-junction/about",
         element: <About />
       },
       {
-        path: "/Forums",
+        path: "/jobs-junction/Forums",
         element: <Forum />
       },
       {
-        path: "/News",
+        path: "/jobs-junction/news",
         element: <News />
       },
       {
-        path: "/Find Resumes",
+        path: "/jobs-junction/Find Resumes",
         element: <Resume />
+      },
+      {
+        path: "/jobs-junction/Companies",
+        element: <Companies/>
       }
     ]
   },

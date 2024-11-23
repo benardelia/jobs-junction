@@ -14,7 +14,7 @@ import { BsLockFill } from 'react-icons/bs';
 import { FaLock } from 'react-icons/fa6';
 
 
-const links = ["home", "Salaries", "Companies", "Forums", "Find resumes", "News"];
+const links = ["home", "Companies", "Forums", "Find resumes", "news"];
 
 const NavBar = () => {
 

@@ -1,7 +1,10 @@
-{
-  "homepage": "https://benardelia.github.io/jobs-junction/",
+yg{
+<<<<<<< HEAD
+=======
+>>>>>>> b09ae4926e1598c7f5510da749ef88de9189563f
   "name": "frontier",
   "version": "0.1.0",
+  "homepage": "https://benardelia.github.io/jobs-junction",
   "private": true,
   "dependencies": {
   "@chakra-ui/react": "^3.1.2",
