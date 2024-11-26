@@ -35,7 +35,7 @@ const App = createBrowserRouter([
         element: <Forum />
       },
       {
-        path: "/jobs-junction/news",
+        path: "/jobs-junction/News",
         element: <News />
       },
       {
@@ -49,11 +49,11 @@ const App = createBrowserRouter([
     ]
   },
   {
-    path: "/login",
+    path: "/jobs-junction/login",
     element: <Login />
   },
   {
-    path: "/register",
+    path: "/jobs-junction/register",
     element: <Register />
   }
 

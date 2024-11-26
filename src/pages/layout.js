@@ -14,11 +14,11 @@ import { BsLockFill } from 'react-icons/bs';
 import { FaLock } from 'react-icons/fa6';
 
 
-const links = ["home", "Companies", "Forums", "Find resumes", "news"];
+const links = ["home", "Companies", "Forums", "Find resumes", "News"];
 
 const NavBar = () => {
 
-    const downs = links.map(link => (<NavLink to={link} className={({isActive})=>(isActive && " underline underline-offset-8 decoration-gray-100 ") }><div className="py-2 block font-sans text-gray-100">
+    const downs = links.map(link => (<NavLink to={link} className={({isActive})=>(isActive && " underline underline-offset-4 decoration-gray-100 ") }><div className="py-2 block font-sans text-gray-100">
         <p className="px-4 w-full  hover:font-normal  font-light">{link}</p><div className='
         hidden' >|</div>
     </div></NavLink>))
@@ -29,9 +29,9 @@ const NavBar = () => {
             <div onClick={()=> setMenu(!menu)} className=" bg-slate-900 p-2 justify-self-start text-gray-100 sm:hidden">
                 {menu ? <MdClose/> : <GiHamburgerMenu/>}
                 </div>
-                <div className=' bg-slate-800 w-full flex-col sm:flex-row  px-2 py-1 flex justify-self-start '>
+                <div className="bg-slate-800 w-full flex-col sm:flex-row  px-2 py-1 flex justify-self-start ">
             {menu && downs }</div>
-            <div className='sm:bg-slate-800 hidden justify-self-start sm:w-full sm:flex sm:flex-row px-2 py-1 '>
+            <div className="sm:bg-slate-800 hidden justify-self-start sm:w-full sm:flex sm:flex-row px-2 py-1">
                 { downs }
             </div>
        </div>
@@ -65,7 +65,7 @@ const Layout = () => {
                 <p className="text-xs text-gray-400">place for better jobs</p>
                 </div>
                 </div>
-                <Link to="/login"><div className='font-sans rounded-lg py-1 px-2 border bg-slate-100 border-slate-800 hover:bg-slate-800 hover:border-none flex items-center hover:text-gray-100 hover:font-normal'>Log In<FaLock className='ml-2'/></div></Link>
+                <Link to="/jobs-junction/login"><div className="font-sans rounded-lg py-1 px-2 border bg-slate-100 border-slate-800 hover:bg-slate-800 hover:border-none flex items-center hover:text-gray-100 hover:font-normal">Log In<FaLock className='ml-2'/></div></Link>
             </div>
             <center><NavBar /></center>
                   <Outlet/>

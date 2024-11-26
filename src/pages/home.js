@@ -145,7 +145,7 @@ const Home = () => {
                 </div>
                 <div className='flex flex-col m-auto sm:flex-row justify-center'>
                     {vids.map(vid =>
-                        <div key={vid.id} className="flex flex-col space-y-6 relative sm:w-48 w-full h-auto py-4 border-2 mx-2 place-items-center">
+                        <div key={vid.id} className="flex flex-col space-y-6 relative sm:w-48 w-full h-auto py-4 border-y sm:border-x border-slate-900 mx-2 place-items-center">
                             <div className="w-80 sm:w-36 h-60 sm:h-36 bg-blue-700 rounded-xl"><img src={vid.src} className='h-full w-full rounded-lg' />
                                 <AiFillYoutube className='text-red-600 absolute text-xl sm:text-sm sm:bottom-17 sm:left-6' /></div>
                             <h className="font-sans underline break-normal text-lg sm:text-xs w-80 sm:w-36">{vid.lik}</h>
