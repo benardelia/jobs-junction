@@ -3,7 +3,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom"
-import Home from "./pages/home";
+import Home from "./pages/layout";
 import Login from "./pages/login";
 import Layout from "./pages/layout";
 import Register from "./pages/register"
@@ -18,42 +18,38 @@ import Companies from "./pages/Companies";
 
 const App = createBrowserRouter([
   {
-    path: "/jobs-junction",
+    path: "/",
     element: <Layout />,
     children: [
+      
       {
-        index: true,
-        path: "/jobs-junction/home",
-        element: <Home />
-      },
-      {
-        path: "/jobs-junction/about",
+        path: "/about",
         element: <About />
       },
       {
-        path: "/jobs-junction/Forums",
+        path: "/Forums",
         element: <Forum />
       },
       {
-        path: "/jobs-junction/News",
+        path: "/News",
         element: <News />
       },
       {
-        path: "/jobs-junction/Find Resumes",
+        path: "/Find Resumes",
         element: <Resume />
       },
       {
-        path: "/jobs-junction/Companies",
+        path: "/Companies",
         element: <Companies/>
       }
     ]
   },
   {
-    path: "/jobs-junction/login",
+    path: "/login",
     element: <Login />
   },
   {
-    path: "/jobs-junction/register",
+    path: "/register",
     element: <Register />
   }
 
