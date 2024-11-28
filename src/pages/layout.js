@@ -186,13 +186,13 @@ const links = ["Companies", "Forums", "Find resumes", "News"];
 
 const NavBar = () => {
     const location = useLocation();
-     const shouldDisplay = location.pathname === "/"
+     const shouldDisplay = location.pathname === "/jobs-junction";
     const navigate = useNavigate();
 
-    const downs = links.map(link => (<NavLink to={link || link.path} className={({isActive})=>(isActive && " underline underline-offset-4 decoration-gray-100 ") }><div className="py-2 block font-sans text-gray-100">
+    const downs = links.map(link =><div className="py-2 block font-sans text-gray-100">
         <p className="px-4 w-full justify-self-end hover:font-normal  font-light">{link}</p><div className='
         hidden' >|</div>
-    </div></NavLink>))
+    </div>)
     const [menu,setMenu] = useState(false);
     return (
 
@@ -202,9 +202,9 @@ const NavBar = () => {
                <div>{!shouldDisplay && <MdHomeFilled className="text-white text-xl right-1" onClick={()=> navigate("/")}/>}</div>
                 </div>
                
-                <div className="bg-slate-800 w-full flex-col sm:flex-row  px-2 py-1 flex justify-self-start ">
+                <div className="bg-slate-800 w-full flex-col sm:flex-row  px-2 py-1 flex justify-start ">
             {menu && downs }</div>
-            <div className="sm:bg-slate-800 hidden justify-self-start sm:w-full sm:flex sm:flex-row px-2 py-1">
+            <div className="sm:bg-slate-800 hidden justify-start sm:w-full sm:flex sm:flex-row px-2 py-1">
                 { downs }
             </div>
        </div>
@@ -230,7 +230,7 @@ const info1 = [
 ]
 const Layout = () => {
     const location = useLocation();
-    const shouldDisplay = location.pathname === "/"
+    const shouldDisplay = location.pathname === "/jobs-junction"
     return (
         <div className='overflow-y-auto h-dvh relative'>
             <div className="flex justify-between items-center my-6 mx-8">

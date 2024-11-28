@@ -18,31 +18,8 @@ import Companies from "./pages/Companies";
 
 const App = createBrowserRouter([
   {
-    path: "/",
+    path: "/jobs-junction",
     element: <Layout />,
-    children: [
-      
-      {
-        path: "/about",
-        element: <About />
-      },
-      {
-        path: "/Forums",
-        element: <Forum />
-      },
-      {
-        path: "/News",
-        element: <News />
-      },
-      {
-        path: "/Find Resumes",
-        element: <Resume />
-      },
-      {
-        path: "/Companies",
-        element: <Companies/>
-      }
-    ]
   },
   {
     path: "/login",

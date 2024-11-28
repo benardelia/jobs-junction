@@ -38,10 +38,10 @@ const Register = () => {
     <div className="flex w-full bg-slate-100">
       <div className='sm:w-3/4 w-full flex h-auto mx-12 justify-center  bg-blue-50'>
         <div className="w-full sm:w-2/3 my-12 p-10 space-y-8 bg-white rounded-xl font-sans shadow-xl">
-          <h2 className="text-2xl font-sans font-semibold text-center text-slate-800">
+          <h2 className="text-xl font-sans font-semibold text-center text-slate-800">
             Please Register
           </h2>
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-10 ">
             <div>
               <label
                 htmlFor="fullName"
@@ -339,11 +339,11 @@ const Register = () => {
             </div>
             <div>
               <div className="flex mb-2 items-center mx-1">
-                <input type='checkbox' value={formData.terms} onChange={handleChange} className="focus: border border-slate-900 " /><p className='text-xs font-thin'>I agree with <Link className='underline'> terms and regulations</Link></p>
+                <input type='checkbox' value={formData.terms} onChange={handleChange} className="focus: border border-slate-900 " /><p className="text-xs font-thin">I agree with <Link className='underline'> terms and regulations</Link></p>
               </div>
               <button
                 type="submit"
-                className="w-full px-4 mb-4 hover:font-semibold py-3 text-white text-xs bg-red-600 rounded-lg hover:bg-slate-900
+                className="w-full px-4 mb-4 hover:font-semibold py-3 text-white text-xs bg-red-600 rounded-lg hover:bg-red-800
  focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-opacity-50"
               >
                 make payment
@@ -357,7 +357,7 @@ const Register = () => {
               </button>
               <button
                 type="submit"
-                className="w-full px-4 hover:font-semibold py-3 mb-4 text-white text-xs bg-yellow-500 rounded-lg hover:bg-slate-900
+                className="w-full px-4 hover:font-semibold py-3 mb-4 text-white text-xs bg-yellow-500 rounded-lg hover:bg-yellow-600
  focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-opacity-50"
               >
                 Read more
